@@ -17,6 +17,12 @@ run:
 	@echo "Server is running."
 	@echo "---------------------------------------------"
 
+watch:
+	@echo "---------------------------------------------"
+	@cd server && \
+		echo "Running in watch mode..." && \
+		air
+
 docker-build:
 	@echo "---------------------------------------------"
 	@echo "Building docker image..."
